@@ -63,25 +63,26 @@ Sass is used for styles, here you have many initialized folders and the import o
 
 Folders structure:
 
-> styles/
->> abtracts/
->>> _mixins.scss `There are initialized mixins for responsive styling`
->>>_variables.scss `Here are some initialized variables, fell free to modify them`
->> base/
->>> _animations.scss
->>>_base.scss `Here are initialized parameters, fell free to modify them but it's not recommended`
->>> _typography.scss `There are some tags initialized to begin with`
->>>_utilities.scss `There are some tags initialized to begin with`
->> components/
->> layouts/ `All files here are initialized with some tags`
->>> _buttons.scss
->>>_footer.scss
->>> _header.scss
->>>_links.scss
->> pages/ `All files here are initialized with some tags`
->>> _home.scss
->>>_not-found.scss
-> styles.scss `This is the main file, edit here each time you add a new file in any other styles folder`
++ styles/
+  + abtracts/
+    + _mixins.scss `There are initialized mixins for responsive styling`
+    + _variables.scss `Here are some initialized variables, fell free to modify them`
+  + base/
+    + _animations.scss
+    +_base.scss `Here are initialized parameters, fell free to modify them but it's not recommended`
+    + _typography.scss `There are some tags initialized to begin with`
+    +_utilities.scss `There are some tags initialized to begin with`
+  + components/
+  + layouts/ `All files here are initialized with some tags`
+    + _buttons.scss
+    +_footer.scss
+    + _header.scss
+    + _links.scss
+  + pages/ `All files here are initialized with some tags`
+    + _home.scss
+    + _not-found.scss
++ styles.scss `This is the main file, edit here each time you add a new file in any other styles folder`
+
 ---
 
 ## Libraries
