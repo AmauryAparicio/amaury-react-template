@@ -66,7 +66,7 @@ Folders structure:
 > styles/
 >> abtracts/
 >>> _mixins.scss `There are initialized mixins for responsive styling`
->>>_variables.scss `Here are some initialized variables, fell free to modify them`
+>>> _variables.scss `Here are some initialized variables, fell free to modify them`
 >> base/
 >>> _animations.scss
 >>>_base.scss `Here are initialized parameters, fell free to modify them but it's not recommended`
