@@ -27,6 +27,7 @@
   + Pages: Home and NotFound components
 
 ---
+
 ## Hooks
 
 + useForm; this Hook provides form managment, every writable input will throw strings values, the only parameter is an Object that initializes the hook, it needs the keys of every value needed and its default value it could be an empty string, the return of the hook is going to be the value of each input, a function that is going to manage the input change state and a reset function that expects another initial object.
